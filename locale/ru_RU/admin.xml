@@ -9,7 +9,7 @@
   * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
   *
   * Localization strings for the ru_RU (Русский) locale.
-  * With updates from Pavel Pisklakov (revising translation). 
+  * With updates from Pavel Pisklakov (revising translation).
   -->
 
 <locale name="ru_RU" full_name="Русский">
@@ -29,6 +29,7 @@
 		Есть случаи, когда должна быть применена только одна статистика использования, например, чтобы отобразить упорядоченный список наиболее используемых статей или отранжировать
 		результаты поиска. Пожалуйста, выберите одну из настроенных метрик в качестве метрики по умолчанию.
 	</message>
+	<message key="admin.languages.confirmDisable">Вы действительно хотите отключить данный язык? Это затронет все журналы на сайте, использующие данный язык.</message>
 	<message key="admin.languages.primaryLocaleInstructions">Это будет язык по умолчанию для сайта и всех размещенных на нем журналов.</message>
 	<message key="admin.languages.supportedLocalesInstructions">Выберите все языки для использования на сайте. Выбранные языки будут доступны для всех журналов, расположенных на этом сайте, а также появятся в меню выбора языков на каждой странице сайта (эта настройка может быть изменена на страницах конкретного журнала). Если выбран только один язык, меню переключения языков не будет показываться, дополнительные языковые настройки для журналов также не будут доступны.</message>
 	<message key="admin.locale.maybeIncomplete">Поддержка отмеченных языков может быть неполной.</message>
@@ -52,6 +53,7 @@
 	<message key="admin.contexts.create">Создать журнал</message>
 	<message key="admin.journals.createInstructions">Вы будете автоматически записаны управляющим этого журнала. После создания нового журнала войдите в него как управляющий и продолжите его настройку и запись пользователей.</message>
 	<message key="admin.journals.urlWillBe">Это должно быть одно короткое слово или аббревиатура, которая идентифицирует журнал. URL-адрес журнала будет {$sampleUrl}</message>
+	<message key="admin.contexts.form.titleRequired">Заголовок обязателен.</message>
 	<message key="admin.contexts.form.pathRequired">Путь обязателен.</message>
 	<message key="admin.contexts.form.pathAlphaNumeric">Путь может содержать только буквы и цифры английского алфавита, подчеркивания и дефисы; путь должен начинаться с буквы или цифры.</message>
 	<message key="admin.contexts.form.pathExists">Выбранный путь уже используется другим журналом.</message>
@@ -83,6 +85,20 @@
 	<message key="admin.categories.confirmDelete">Вы уверены, что хотите удалить эту категорию?</message>
 	<message key="admin.categories.name">Название</message>
 	<message key="admin.categories.nameRequired">Название категории обязательно.</message>
-	
-	
+
+
+
+
+	<message key="admin.languages.downloadUnavailable"><![CDATA[<p>Downloading language packs from the Public Knowledge Project web server is not currently available because:</p>
+	<ul>
+		<li>Your server does not have or allow execution of the GNU "tar" utility.</li>
+		<li>OJS is unable to modify the locale registry file, typically "registry/locales.xml".</li>
+	</ul>
+<p>Language packs can be manually downloaded from the <a href="http://pkp.sfu.ca">PKP web site</a>.</p>]]></message>
+
+	<message key="admin.presses.createInstructions">Вы будете автоматически записаны управляющим этого журнала. После создания нового журнала войдите в него как управляющий и продолжите его настройку и запись пользователей.</message>
+	<message key="admin.scheduledTask.subscriptionExpiryReminder">Подписка на напоминания</message>
+	<message key="admin.scheduledTask.openAccessNotification">Уведомление об открытом доступе</message>
+	<message key="admin.scheduledTask.reviewReminder">Напоминание о рецензии</message>
+
 </locale>

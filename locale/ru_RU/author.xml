@@ -9,7 +9,7 @@
   * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
   *
   * Localization strings for the ru_RU (Русский) locale.
-  * With updates from Pavel Pisklakov (revising translation). 
+  * With updates from Pavel Pisklakov (revising translation).
   -->
 
 <locale name="ru_RU" full_name="Русский">
@@ -31,6 +31,7 @@
 	<message key="author.submit.metadata">Метаданные</message>
 	<message key="author.submit.supplementaryFiles">Дополнительные файлы</message>
 	<message key="author.submit.confirmation">Подтверждение</message>
+	<message key="author.submit.nextSteps">Последующие шаги</message>
 	<message key="submission.submit.cancelSubmission">Вы можете закончить эту отправку позже, выбрав «Статьи в работе» на домашней странице автора.</message>
 	<message key="author.submit.notAccepting">Этот журнал сейчас не принимает статьи.</message>
 	<message key="author.submit.requestWaiver">Запрос отмены оплаты</message>

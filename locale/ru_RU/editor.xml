@@ -9,7 +9,7 @@
   * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
   *
   * Localization strings for the ru_RU (Русский) locale.
-  * With updates from Pavel Pisklakov (revising translation). 
+  * With updates from Pavel Pisklakov (revising translation).
   -->
 
 <locale name="ru_RU" full_name="Русский">
@@ -44,14 +44,16 @@
 	<message key="editor.notifyUsers.includeToc">Включить содержание из этого номера:</message>
 	<message key="editor.editorAdministration">Редактор: Администрирование</message>
 	<message key="editor.issues.createIssue">Создать выпуск</message>
-	<message key="editor.issues.backIssues">Старые выпуски</message>
-	<message key="editor.issues.futureIssues">Будущие выпуски</message>
+	<message key="editor.issues.backIssues">Предыдущие выпуски</message>
+	<message key="editor.issues.futureIssues">Последующие выпуски</message>
+	<message key="editor.issues.editIssue">Правка выпуска: {$issueIdentification}</message>
 	<message key="editor.issues.currentIssue">Текущий выпуск</message>
 	<message key="editor.issues.numArticles">Количество статей</message>
 	<message key="editor.issues.noArticles">На текущий момент нет запланированных статей для этого выпуска.</message>
 	<message key="editor.issues.confirmDelete">Вы уверены, что хотите навсегда удалить этот выпуск?</message>
 	<message key="editor.issues.published">Опубликованные</message>
 	<message key="editor.issues.unpublished">Неопубликованные</message>
+	<message key="editor.issues.datePublished">Дата публикации</message>
 	<message key="editor.issues.volumeRequired">Номер тома обязателен и должен быть положительным числом.</message>
 	<message key="editor.issues.numberRequired">Номер выпуска обязателен и должен быть положительным числом.</message>
 	<message key="editor.issues.yearRequired">Номер года обязателен и должен быть положительным числом.</message>
@@ -69,7 +71,10 @@
 	<message key="editor.issues.remove">Удалить</message>
 	<message key="editor.issues.proofed">Проверено</message>
 	<message key="editor.issues.removeCoverPage">Удалить изображение обложки?</message>
+	<message key="editor.issues.removeCoverImageFileNameMismatch">Изображение, которое вы хотите удалить не совпадает с текущей обложкой выпуска. Обновите страницу и попробуйте снова.</message>
+	<message key="editor.issues.removeCoverImageFileNotFound">Изображение обложки не найдено. Возможно файл уже был удален. Обновите страницу и попробуйте снова.</message>
 	<message key="editor.issues.invalidCoverPageFormat">Неверный формат изображения обложки. Разрешенные форматы — .gif, .jpg, или .png.</message>
+	<message key="editor.issues.invalidCoverImageFormat">Неверный формат изображения обложки. Разрешенные форматы — .gif, .jpg, или .png.</message>
 	<message key="editor.issues.styleFile">Таблица стилей</message>
 	<message key="editor.issues.invalidStyleFormat">Неверный формат таблицы стилей. Убедитесь, что отправленный файл является синтаксически правильным CSS. (Обратите внимание, что комментарии вначале таблицы стилей могут привести к отказу системы его принять.)</message>
 	<message key="editor.issues.removeStyleFile">Удалить таблицу стилей?</message>
@@ -112,8 +117,15 @@
 	<message key="editor.issues.backToIssueGalleys">Назад к гранкам выпуска</message>
 	<message key="editor.issues.viewingGalley">Просмотр гранки выпуска</message>
 	<message key="editor.issues.confirmDeleteGalley">Вы уверены, что хотите удалить эту гранку выпуска?</message>
-	<message key="editor.navigation.futureIssues">Будущие выпуски</message>
-	<message key="editor.navigation.issueArchive">Старые выпуски</message>
+	<message key="editor.issues.identifiers">Идентификаторы</message>
+	<message key="grid.action.addGalley">Создать гранку</message>
+	<message key="grid.action.publish">Опубликовать выпуск</message>
+	<message key="grid.action.addIssue">Создать выпуск</message>
+	<message key="grid.action.viewIssue">Просмотреть</message>
+	<message key="grid.action.previewIssue">Предварительный просмотр</message>
+	<message key="grid.action.addIssueGalley">Создать гранку выпуска</message>
+	<message key="editor.navigation.futureIssues">Последующие выпуски</message>
+	<message key="editor.navigation.issueArchive">Предыдущие выпуски</message>
 	<message key="editor.article.designateReviewVersion">Обозначить оригинальный файл как версию для рецензирования</message>
 	<message key="editor.article.uploadReviewVersion">Загрузить переработанную версию для рецензирования</message>
 	<message key="editor.article.showSuppFile">Предоставить файл рецензентам</message>
@@ -196,6 +208,7 @@
 	<message key="editor.submissions.lastCompleted">Последняя завершенная</message>
 	<message key="editor.submissions.assignedTo">Кому назначено</message>
 	<message key="editor.submissions.inSection">В разделе</message>
+	<message key="editor.article.schedulePublication">Планирование публикации</message>
 	<message key="editor.article.scheduleForPublication">Запланировать для публикации в</message>
 	<message key="editor.article.scheduleForPublication.toBeAssigned">Будет назначено позже</message>
 	<message key="editor.article.payment.publicationFeeNotPaid">Не поступила плата за публикацию. Чтобы запланировать статью к публикации уведомите автора о необходимости внести плату или отмените платеж.</message>
@@ -215,4 +228,12 @@
 	<message key="editor.article.removeCoverPage">Удалить изображение обложки?</message>
 	<message key="editor.article.remove">Удалить</message>
 	<message key="editor.issues.invalidAccessDate">Неверная дата предоставления открытого доступа.</message>
+	<message key="editor.article.removeCoverImageFileNotFound">Изображение обложки не найдено. Возможно файл уже был удален. Обновите страницу и попробуйте снова.</message>
+	<message key="grid.action.removeArticle">Удалить статью из выпуска</message>
+	<message key="editor.article.remove.confirm">Вы действительно хотите удалить статью из выпуска? Статья будет доступна для использования в другом выпуске.</message>
+	<message key="editor.issues.editIssueGalley">Изменить гранку выпуска</message>
+	<message key="editor.submission.production.productionReadyFilesDescription"><![CDATA[Верстальщик готовит файлы для каждой гранки и затем отправляет их для корректировки.]]></message>
+	<message key="editor.submission.selectGalleyFiles">Выберите файлы гранки</message>
+	<message key="editor.submission.editorial.finalDraftDescription"><![CDATA[Окончательные варианты файлов в списке обрабатываются литературным редактором и добавляются в раздел литературных версий.]]></message>
+	<message key="editor.submission.proof.manageProofFilesDescription">Файлы, загруженные на любом этапе могут быть добавлены в список для корректировки установкой флажка Включить.</message>
 </locale>
